@@ -1,0 +1,222 @@
+
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+.h_bg{
+    margin-top: -4px;
+    width: 1583px;
+    position: relative;
+}
+.h_banner{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background: rgba(244, 244, 244, 0.8);
+    top: 0;
+}
+.b_ul{
+    position: relative;
+    width: 1050px;
+    margin: auto;
+}
+.b_ul>li{
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    font-size: 17px;
+    cursor: pointer;
+    color: #797878;
+}
+#fix{
+    font-weight: 600;
+    background: url("../images/li_bg.jpg");
+    color: white;
+}
+.b_ul>li ul{
+    width: 100%;
+    height: 200px;
+    display: none;
+    /*background: linear-gradient(to top,#fff,#d25151);*/
+}
+.b_ul>li ul li{
+    color: #fedede;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    background: url("../images/so.png");
+    background-position:0 -190px ;
+}
+.b_ul>li ul li:first-child{
+    padding-top: 10px;
+}
+.b_ul>li ul li:last-child{
+    background-position: -410px -180px ;
+    height: 100px;
+}
+.b_ul>li ul li.code{
+    /*background: red;*/
+    height: 180px;
+    background-position: 0 0;
+}
+.b_ul>li ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.b_ul .lbg{
+    font-weight: 600;
+    background: url("../images/li_bg.jpg");
+    color: white;
+}
+.b_ul>li span{
+    position: absolute;
+    margin-left: 28px;
+    width: 1px;
+    display: inline-block;
+    color: #d4d3d3;
+}
+
+.bottom{
+    width: 100%;
+    height: 500px;
+    font-size: 13px;
+    top: 1800px;
+    position: absolute;
+}
+.footer{
+    position: absolute;
+    width: 1200px;
+    height: 350px;
+    bottom: 50px;
+    left: 250px;
+}
+.footer>ul{
+    position: relative;
+    width: 800px;
+    height: 60px;
+    margin: auto;
+}
+.footer>ul li{
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    width: 12%;
+}
+.footer>ul li a:hover{
+    color: red;
+}
+.more{
+    clear: both;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+}
+.more_l{
+    float: left;
+}
+.more_r{
+    margin-left: 80px;
+    float: left;
+}
+.more_r dd{
+    float: left;
+    margin-right: 5px;
+    line-height: 62px;
+    cursor: pointer;
+}
+.more_r dd a:hover{
+    text-decoration: underline;
+}
+.more_r>p span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 2px;
+    margin-left: 30px;
+    background: #610000;
+    color: white;
+
+}
+.more_r>p span a:hover{
+    text-decoration: underline;
+}
+.footer_foo{
+    width: 100%;
+    height: 105px;
+    clear: both;
+    margin-top: 30px;
+}
+.footer_foo p{
+    line-height: 40px;
+}
+.floo_r{
+    width: 150px;
+    height: 460px;
+    position: fixed;
+    right: 0;
+    top: 115px;
+    background: url("../images/flo_r.png");
+}
+.flo_sp,.flo_sp1{
+    background: #cfad54;
+    color: white;
+    left: -25px;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+.flo_sp1{
+    display: none;
+}
+.flo_code{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+.flo_dl{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    top: 190px;
+}
+.flo_dl dd{
+    float: left;
+    width: 70px;
+    height: 55px;
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.flo_dl dd img{
+    position: relative;
+    top:0;
+    transition: all .5s linear .1s;
+}
+.flo_dl dd a{
+    position: relative;
+    top:0;
+    transition: all .3s linear 0s;
+}
+
+.flo_dl dd:hover a{
+    top: -5px;
+}
+.flo_dl dd:hover img{
+    top: -10px;
+}
+
+.flo_top{
+    position: absolute;
+    cursor: pointer;
+    bottom:20px;
+    right: 40px;
+}

@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="Tool.js"></script>
+    <script src="js/tabjs.js"></script>
+    <link href="css/botop.css" rel="stylesheet" type="text/css">
+    <link href="css/register.css" rel="stylesheet" type="text/css">
+    <link href="css/left.css" rel="stylesheet" type="text/css">
+    <link href="css/tabcss.css" rel="stylesheet" type="text/css">
+    <link href="css/section.css" rel="stylesheet" type="text/css">
+    <style>
+
+
+</style>
+</head>
+<body>
+<img src="img/0.png">
+<a href="http://xqn.163.com/index.html" target="_blank"><img src="img/1.png" class="header"></a>
+<div class="tubiao"></div>
+<div id="mask"></div>
+<div class="register">
+    <div class="a_title"><a><span>倩女新用户注册</span></a><span class="time">&times;</span></div>
+    <div class="re_item">
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <div class="tel">
+                        <label>手机号码：</label>
+                        <input type="text" class="mobile" placeholder="请输入您的手机号码">
+                    </div>
+                    <div class="tel_tip"></div>
+                </li>
+                <li>
+                    <div class="user">
+                        <label>用户名：</label>
+                        <input type="text" class="username" placeholder="请输入您的用户名">
+                    </div>
+                    <div class="user_tip"></div>
+                </li>
+                <li>
+                    <div class="pwd">
+                        <label>密码：</label>
+                        <input type="password" class="mm" placeholder="不少于六位数的密码">
+                    </div>
+                    <div class="pwd_tip"></div>
+                </li>
+
+                <li>
+                    <div class="email">
+                        <label>邮箱：</label>
+                        <input type="email" class="mail" placeholder="邮箱账号">
+                    </div>
+                    <div class="mail_tip"></div>
+                </li>
+
+                <li>
+                    <div class="iden">
+                        <label>验证码：</label>
+                        <input type="text" class="yz" value="请输入验证码">
+                        <input type="button" class="yz_btn" value="获取动态验证码">
+                    </div>
+                    <div class="iden_tip"></div>
+                </li>
+                <li>
+                    <div class="agree">
+                        <input type="checkbox" class="chk">
+                        <b style="font-weight: normal; font-size: 15px;">同意</b>
+                        <label>
+                            <a>新倩女幽魂协议并且愿意接受官服免费信息</a>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="sub">
+        <input type="submit" value="立即注册" class="mit">
+    </div>
+</div>
+
+<div class="h_bg">
+    <div class="h_banner">
+        <ul class="b_ul">
+            <li class="lbg" id="fix">官网首页<span>|</span></li>
+            <li>新闻公告<span>|</span>
+                <ul>
+                    <li><a>最新新闻</a></li>
+                    <li>热点新闻</li>
+                    <li>官方公告</li>
+                    <li>主题活动</li>
+                </ul>
+            </li>
+            <li>下载专区<span>|</span>
+                <ul>
+                    <li>游戏下载</li>
+                    <li>注册账号</li>
+                    <li>领取礼包</li>
+                    <li class="lia">官方助手app</li>
+                </ul>
+            </li>
+            <li>游戏资料<span>|</span>
+                <ul>
+                    <li>新手宝典</li>
+                    <li>职业门派</li>
+                    <li>主角剧情</li>
+                    <li>任务攻略</li>
+                </ul>
+            </li>
+            <li>视觉盛宴<span>|</span>
+                <ul>
+                    <li>精彩视频</li>
+                    <li>原声音乐</li>
+                    <li>游戏图鉴</li>
+                    <li>二次元站（旧）</li>
+                </ul>
+            </li>
+            <li>客服专区<span>|</span>
+                <ul>
+                    <li>自助百宝箱</li>
+                    <li>帐号保护</li>
+                    <li>帐号安全</li>
+                    <li>角色查询</li>
+                    <li>心易服务</li>
+                </ul>
+            </li>
+            <li>玩家交流<span>|</span>
+                <ul>
+                    <li>梦岛社区</li>
+                    <li>同人站（全新）</li>
+                    <li>官方微信</li>
+                    <li>官方微博</li>
+                </ul>
+            </li>
+            <li>官网论坛
+                <ul>
+                    <li class="code"></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</div>
+<div class="bg">
+    <img src="img/1.jpg">
+    <img src="img/2.jpg">
+    <img src="img/3.jpg">
+</div>
+
+<div class="section">
+    <div class="left">
+        <div class="left-1">
+            <a><span class="left-sp"></span></a>
+            <ul class="left-spu">
+                <li><a><span class="icon1"></span><em>快速注册</em></a></li>
+                <li><a><span class="icon2"></span><em>充值中心</em></a></li>
+                <li><a><span class="icon3"></span><em>新手宝典</em></a></li>
+                <li><a><span class="icon4"></span><em>账号保护</em></a></li>
+                <li><a><span class="icon5"></span><em>领取礼包</em></a></li>
+                <li><a><span class="icon6"></span><em>藏宝阁</em></a></li>
+            </ul>
+        </div>
+        <div class="left-2">
+            <a class="le2_a1"><em></em><span class="icon7">《倩女幽魂》<br>官方手游</span></a>
+            <ul  class="left-spu2">
+                <li><a><span class="icon8"></span><em>漫画倩女幽魂</em></a></li>
+                <li><a><span class="icon9"></span><em>倩女官方微信</em></a></li>
+                <li><a><span class="icon10"></span><em>倩女官方微博</em></a></li>
+            </ul>
+            <ul  class="left-spu3">
+                <li><a><span class="icon11"></span><em>视频</em></a></li>
+                <li><a><span class="icon12"></span><em>图赏</em></a></li>
+                <li><a><span class="icon13"></span><em>音乐</em></a></li>
+                <li><a><span class="icon14"></span><em>同人</em></a></li>
+            </ul>
+        </div>
+        <div class="left-3">
+            <div class="lef3_a">
+                <ul class="left-spu4">
+                    <li><a>帐号安全</a></li>
+                    <li><a>账号修复</a></li>
+                    <li><a>帐号保护</a></li>
+                    <li><a>防沉迷查询</a></li>
+                    <li><a>客服专区</a></li>
+                    <li><a>自助百宝箱</a></li>
+                </ul>
+                <div class="lef3_aa">
+                    <span class="icon15"></span><em>服务电话<br>0571-26201177</em>
+                </div>
+            </div>
+            <div class="lef3_b">
+                <ul class="left-spu5">
+                    <li class="icon16"></li>
+                    <li class="icon17"></li>
+                    <li class="icon18"></li>
+                    <li class="icon19"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <div class="center-1">
+            <div class="center_1">
+                <span class="btn0 active" >官方</span>
+                <span class="btn1">合作</span>
+            </div>
+            <ul class="scroll_1">
+                <li><img src="scroll0/1.jpg"></li>
+                <li><img src="scroll0/2.jpg"></li>
+                <li><img src="scroll0/3.jpg"></li>
+                <li><img src="scroll0/4.jpg"></li>
+                <li><img src="scroll0/1.jpg"></li>
+            </ul>
+            <ul class="btn_1">
+                <li class="active">倩女漫画单行本</li>
+                <li>全新梦岛社区</li>
+                <li>全新梦岛同人站</li>
+                <li>公子景真人MV</li>
+            </ul>
+            <ul class="scroll_2">
+                <li><img src="scroll0/5.jpg"></li>
+                <li><img src="scroll0/6.jpg"></li>
+                <li><img src="scroll0/7.jpg"></li>
+                <li><img src="scroll0/5.jpg"></li>
+            </ul>
+            <ul class="btn_2">
+                <li class="active">夏季爆款榜单</li>
+                <li>苏菲娜新倩女幽魂合作款</li>
+                <li>官方授权画集</li>
+            </ul>
+        </div>
+        <div class="center-2">
+            <div class="center_left">
+            <div class="left_top">
+                <dl>
+                    <dt><img src="center2/3.png"></dt>
+                    <dd>领取礼包</dd>
+                </dl>
+                <dl>
+                    <dt><img src="center2/4.png"></dt>
+                    <dd>探索准备</dd>
+                </dl>
+                <dl>
+                    <dt><img src="center2/5.png"></dt>
+                    <dd>入门指南</dd>
+                </dl>
+            </div>
+            <div class="right_top">
+                <ul>
+                    <li>快速升级</li>
+                    <li>贸易指南</li>
+                    <li>三界伙伴</li>
+                    <li>装备介绍</li>
+                    <li>灵兽系统</li>
+                    <li>坐骑系统</li>
+                </ul>
+            </div>
+            <div class="botm_left">
+                <ul>
+                    <li>帮会联赛</li>
+                    <li>关宁校场</li>
+                    <li>寇岛围攻</li>
+                    <li>镖行天下</li>
+                    <li>宁远觉华</li>
+                    <li>十世镜</li>
+                    <li>京城妖奇谈</li>
+                    <li>京师保卫战</li>
+                </ul>
+            </div>
+            <div class="botm_right">
+                <ul>
+                    <li>婚姻系统</li>
+                    <li>养育系统</li>
+                    <li>家园系统</li>
+                    <li>生活系统</li>
+                    <li>雷峰塔</li>
+                    <li>海陆空领地</li>
+                    <li>主角剧情</li>
+                </ul>
+            </div>
+            </div>
+            <div><img src="center2/1.png"></div>
+        </div>
+        <div class="center-3">
+            <ul class="ct_nav">
+                <li>魅者</li>
+                <li>刀客</li>
+                <li>甲士</li>
+                <li>射手</li>
+                <li>画魂</li>
+                <li>偃师</li>
+                <li>侠客</li>
+                <li>方士</li>
+                <li>医师</li>
+                <li>异人</li>
+            </ul>
+            <div class="ct_tab">
+                <div style="display: block">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：远程 / 法术 / 控制</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a id="aa" class="male">冷月心</a>
+                        <a id="bb" class="female">风摇筝</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：近程 / 群攻 / 刺客</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">卓断水</a>
+                        <a class="female">杨梦言</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：中程 / 物理 / 召唤</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">霍击蒙</a>
+                        <a class="female">石云馨</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：近程 / 物理 / 高防</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">聂秋鹰</a>
+                        <a class="female">萧若兰</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：远程 / 物理 / 群攻</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">乔寻影</a>
+                        <a class="female">水凝墨</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：近程 / 法术 / 单攻</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">檀无心</a>
+                        <a class="female">阮烟罗</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：近程 / 物理 / 辅助</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">洛昊空</a>
+                        <a class="female">沈傲霜</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：远程 / 法术 / 群攻</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">莫忘尘</a>
+                        <a class="female">纳兰青</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：远程 / 法术 / 治疗</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">步临风</a>
+                        <a class="female">殷紫萍</a>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <div class="name"></div>
+                    <div class="dingwei">职业定位：远程 / 法术 / 召唤</div>
+                    <div class="leibie"></div>
+                    <div class="gender">
+                        <a class="male">叶葬花</a>
+                        <a class="female">花渐隐</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-4">
+            <h1><img src="center4/5.png"></h1>
+            <div class="left-one">
+                <div class="left_1">
+                    <img src="center4/0.png" alt="">
+                </div>
+                <div class="cen_1">
+                    <img src="center4/4.png" >
+                    <img src="center4/3.png" >
+                    <ul>
+                        <li>[图说] <a title="任性红装，有这样的神队友必出">任性红装，有这样的神队友必出</a><span>[03/16]</span></li>
+                        <li>[愉记]<a title="倩女幽魂真好玩,天然逆天不可修">倩女幽魂真好玩,天然逆天不可修</a><span>[03/14]</span></li>
+                        <li>[任性]<a title=" 7命中神级裤带，5年圆梦挖大"> 7命中神级裤带，5年圆梦挖大</a><span>[03/14]</span></li>
+                    </ul>
+                </div>
+               </div>
+            <div class="left-two">
+                <div class="left_2">
+                    <img src="center4/1.png">
+                </div>
+                <div class="cen_2">
+                    <ul>
+                        <li>[丹青] <a title="藏宝阁精选：最优惠的价格，最精品的侠客">藏宝阁精选：最优惠的价格，最</a><span>[03/16]</span></li>
+                        <li>[丹青] <a title="物理致命 温故第46期 法术躲避">物理致命 温故第46期 法术躲避</a><span>[03/13]</span></li>
+                        <li>[丹青] <a title="刀妹独白：幻想自画像">刀妹独白：幻想自画像</a><span>[03/09]</span></li>
+                        <li>[丹青] <a title="刀妹独白：幻想自画像">悬壶济世</a><span>[03/08]</span></li>
+                        <li>[丹青] <a title="【藏宝阁角色精选】打宝界高">【藏宝阁角色精选】打宝界高</a><span>[03/06]</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="left-three">
+                <div class="left_3">
+                    <img src="center4/2.png">
+                </div>
+                <div class="cen_3">
+                    <ul>
+                        <li>[玩法] <a title="平民抗性养成2：那边的魅者你过来谈下人生">平民抗性养成2：那边的魅者你</a><span>[03/08]</span></li>
+                        <li>[玩法] <a title="帮会系统全解系列1：看完可以指挥联赛啦">帮会系统全解系列1：看完可以</a><span>[02/18] </span></li>
+                        <li>[装备] <a title="平民抗性养成：那边的矮砸你打不动我~ ">平民抗性养成：那边的矮砸你打</a><span>[02/11]</span> </li>
+                        <li>[新手] <a title="千羽大课堂——生活技能（4）工艺篇（下）">千羽大课堂——生活技能</a><span>[01/31]</span> </li>
+                        <li>[玩法] <a title="土木堡攻略上：看瓦剌如何勇夺">土木堡攻略上：看瓦剌如何勇夺</a><span>[01/26]</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+  </div>
+    <div class="right">
+        <div class="right-1"><input type="text" placeholder="请输入关键字"></div>
+        <div class="right-2">
+         <ul class="banner">
+             <li class="active5">最新</li>
+             <li>消息</li>
+             <li>公告</li>
+             <li>活动</li>
+             <li>热帖</li>
+         </ul>
+         <ul class="advise">
+             <li><a>【2次元更新】春意如歌 次元入画</a></li>
+             <li><a>《新倩女幽魂》3月16日更新公告</a></li>
+         </ul>
+          <div class="xinwen">
+              <ul class="active4">
+                  <li title="[视频]【一周视频】命运神逆转，从鱼变身输出，观众为赢赌实力卖队友"><a>[视频]【一周视频】命运神逆转，从鱼变身输出</a></li>
+                  <li title="[话题]【机智君防骗指南37】这个小小的举动 为他挽回了差点损失的7000块！"><a>[话题]【机智君防骗指南37】这个小小的举动</a></li>
+                  <li title="[展示]【倩女任性第114期】 帮会怪刷新脸时代/1脚蛮力定乾坤/实用型开书技巧"><a>[展示]【倩女任性第114期】 帮会怪刷新脸时代</a></li>
+                  <li title="[其他]【悬赏币发放公告】倩女茶馆第一期活动结束，3月23日14：00发放"><a>[其他]【悬赏币发放公告】倩女茶馆第一期活动结束</a></li>
+                  <li title="[其他]【深夜密事 说说你是如何入坑的】"><a>[其他]【深夜密事 说说你是如何入坑的】</a></li>
+                  <li title="[新闻] 本周更新【踏浪】 把酒当歌祝东风"><a>[新闻] 本周更新【踏浪】 把酒当歌祝东风</a></li>
+              </ul>
+              <ul>
+                  <li title="[公告] 倩女漫画满堂酒单行本来袭，预售送超萌好礼"><a>[其他]倩女漫画满堂酒单行本来袭</a></li>
+                  <li title="[公告] 相伴天涯路，莫问归处！主角剧情MV催泪上线"><a>[其他]相伴天涯路，莫问归处！</a></li>
+                  <li title="[公告] 本周更新【踏浪】 把酒当歌祝东风"><a>[展示]本周更新【踏浪】 把酒当歌祝东风</a></li>
+                  <li title="[其他]【2次元更新】春意如歌 次元入画"><a>[话题]【2次元更新】春意如歌 次元入画"</a></li>
+                  <li title="[新闻] 本周更新【春色】经典时装齐回归"><a>[其他]本周更新【春色】经典时装齐回归</a></li>
+                  <li title="[三石精选] 不只游戏，睡觉也要花鸟山水中国风"><a>[其他]不只游戏，睡觉也要花鸟山水</a></li>
+
+              </ul>
+              <ul>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[公告]  开春新服今日燃情开启 入驻享多重特权"><a>[公告] 《开春新服今日燃情开启 入驻享多重特权</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告]《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[新闻] 倩女漫画满堂酒单行本来袭，预售送超萌好礼"><a>[新闻] 倩女漫画满堂酒单行本来袭，送超萌好礼</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+              </ul>
+              <ul>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[公告]  开春新服今日燃情开启 入驻享多重特权"><a>[公告] 开春新服今日燃情开启 入驻享多重特权</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告]《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[新闻] 倩女漫画满堂酒单行本来袭，预售送超萌好礼"><a>[新闻] 倩女漫画满堂酒单行本来袭，送超萌好礼</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+              </ul>
+              <ul>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[公告]  开春新服今日燃情开启 入驻享多重特权"><a>[公告] 开春新服今日燃情开启 入驻享多重特权</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告]《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+                  <li title="[新闻] 倩女漫画满堂酒单行本来袭，预售送超萌好礼"><a>[新闻] 倩女漫画满堂酒单行本来袭，送超萌好礼</a></li>
+                  <li title="[公告] 《新倩女幽魂》3月23日更新公告"><a>[公告] 《新倩女幽魂》3月23日更新公告</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="right-3">
+            <img src="right/1.png"/>
+            <div class="video">
+                <video poster="right/2.png" id="player" controls>
+                    <source src="qnyh.mp4">
+                </video>
+            </div>
+        </div>
+        <div class="right-4">
+            <img src="right/3.png"/>
+        </div>
+        <div class="right-5">
+            <img src="right/4.png"/>
+            <div class="p0">
+                <div class="p1"><img src="right/5.png"/></div>
+                <div class="last">
+                <div class="p2"><img src="right/6.png"/></div>
+                <div class="p3"><img src="right/7.png"/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div class="footer">
+        <ul>
+            <li><a>分享到：</a></li>
+            <li>
+                <span></span>
+                <a>微信</a>
+            </li>
+            <li>
+                <span></span>
+                <a>易信</a>
+            </li>
+            <li>
+                <span></span>
+                <a>新浪微博</a>
+            </li>
+            <li>
+                <span></span>
+                <a>QQ空间</a>
+            </li>
+            <li>
+                <span></span>
+                <a>腾讯微博</a>
+            </li>
+            <li>
+                <span></span>
+                <a>人人网</a>
+            </li>
+            <li>
+                <span></span>
+                <a>QQ好友</a>
+            </li>
+        </ul>
+        <div class="more">
+            <div class="more_l">
+                <img src="images/foo.jpg">
+            </div>
+            <div class="more_r">
+                <dl>
+                    <dd><a>公司简介</a>&nbsp;-&nbsp;</dd>
+                    <dd><a>客户服务</a>&nbsp;-&nbsp;</dd>
+                    <dd><a>相关法律</a>&nbsp;-&nbsp;</dd>
+                    <dd><a>网易游戏</a>&nbsp;-&nbsp;</dd>
+                    <dd><a>联系我们</a>&nbsp;-&nbsp;</dd>
+                    <dd><a>商务合作</a>&nbsp;-&nbsp;</dd>
+                    <dd><a>加入我们</a></dd>
+                </dl>
+                <p>杭州网易雷火科技有限公司版权所有 ©1997-2017<span><a>点击查看家长监护工程 ></a></span></p>
+            </div>
+        </div>
+        <div class="footer_foo">
+            <p>本游戏适合16岁以上的玩家进入。</p>
+            <p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。</p>
+            <p>《网络游戏管理暂行办法》&nbsp;文网游备字[2011]C-RPG007号&nbsp;《网络文化经营许可证》&nbsp;浙网文[2016]0155-055号</p>
+        </div>
+    </div>
+</div>
+<div class="floo_r">
+    <span class="flo_sp">收<br>起<br>></span>
+    <span class="flo_sp1">展<br>开<br><</span>
+    <div class="flo_code"><img src="images/flo_code.png"></div>
+    <div class="flo_dl">
+        <dl>
+            <dd>
+                <img src="images/flo_r1.png"><br>
+                <a>新手宝典</a>
+            </dd>
+            <dd>
+                <img src="images/flo_r2.png"><br>
+                <a>下载游戏</a>
+            </dd>
+            <dd>
+                <img src="images/flo_r3.png"><br>
+                <a>立即注册</a>
+            </dd>
+            <dd>
+                <img src="images/flo_r4.png"><br>
+                <a>领取礼包</a>
+            </dd>
+            <dd>
+                <img src="images/flo_r5.png"><br>
+                <a>官方微博</a>
+            </dd>
+            <dd>
+                <img src="images/flo_r6.png"><br>
+                <a>梦岛社区</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="flo_top"><img src="images/top.png"></div>
+</div>
+<script>
+    $(function(){
+
+/*弹出注册框*/
+            $(".tubiao").click(function(){
+                $("#mask").css({"display":"block"});
+                $(".register").animate({"top":"100px"},600)
+            });
+
+        $(".mit").click(function(){
+            $(".register").animate({"top":"-700px"},600);
+            $("#mask").css({"display":"none"});
+        });
+/*  验证      */
+            $(".mm").keyup(function(){
+                $(".pwd_tip").css({"opacity":"1"});
+                switch (pwd_validate(this.value)){
+                    case 4:
+                        $(".pwd_tip").html("密码不能为空");
+                        break;
+                    case 3:
+                        $(".pwd_tip").html("密码强度低");
+                        break;
+                    case 2:
+                        $(".pwd_tip").html("密码强度中");
+                        break;
+                    case 1:
+                        $(".pwd_tip").html("密码强度较强");
+                        break;
+                    case 0:
+                        $(".pwd_tip").html("密码强度高");
+                        break;
+                }
+
+            });
+            $(".mail").keyup(function(){
+                $(".mail_tip").css({"opacity":"1"});
+                email_validte(this.value,$(".mail_tip"));
+
+            });
+
+            $(".mobile").blur(function(){
+                if($.trim($(".mobile").val()).length==0){
+                    $(".tel_tip").css({"opacity":"1"});
+                    $(".tel_tip").html("请输入正确的手机号");
+                }
+            });
+            $(".username").blur(function(){
+                if($.trim($(".username").val()).length==0){
+                    $(".user_tip").css({"opacity":"1"});
+                    $(".user_tip").html("用户名不得为空");
+                    return false;
+                }
+            });
+
+
+            $(".mobile").focus(function(){
+                $(".tel_tip").css({"opacity":"0"});
+            });
+            $(".username").focus(function(){
+                $(".user_tip").css({"opacity":"0"});
+            });
+            $(".mail").focus(function(){
+                $(".mail_tip").css({"opacity":"0"});
+            });
+            $(".mm").blur(function(){
+                $(".pwd_tip").css({"opacity":"0"});
+            });
+
+            /*同意协议按钮*/
+
+            $(".chk").click(function(){
+                if($(".chk")){
+                    $(".mit").css({"background":"rgba(207,172,88,1)"});
+                }
+            });
+            /*关闭*/
+            $(".time").click(function(){
+                $("#mask").css({"display":"none"});
+                $(".register").animate({"top":"-1000px"},600)
+            });
+            $(".time2").click(function(){
+                $("#mask").css({"display":"none"});
+                $(".submmit").animate({"top":"-370px"},600)
+            });
+
+/*顶部tab*/
+        var over=[];
+        $(".b_ul>li").each(function(index){
+            $(this).hover(function(){
+                $(this).addClass("lbg");
+                over[index]=setTimeout(function(){
+                    $(".b_ul>li").eq(index).children("ul").slideDown();
+                },200)
+            },function(){
+                clearTimeout(over[index]);
+                $(this).removeClass("lbg");
+                setTimeout(function(){
+                    $(".b_ul>li").eq(index).children("ul").slideUp("fast");
+                },200)
+            });
+        });
+
+
+        $(".flo_sp").click(function(){
+            $(".floo_r").animate({"right":"-150px"},600,function(){
+                $(".flo_sp").css({"display":"none"});
+                $(".flo_sp1").css({"display":"block"});
+            })
+        });
+        $(".flo_sp1").click(function(){
+            $(".floo_r").animate({"right":0},600,function(){
+                $(".flo_sp").css({"display":"block"});
+                $(".flo_sp1").css({"display":"none"});
+            })
+        });
+
+        $(".flo_top img").click(function(){
+            $("body").animate({"scrollTop":"0"},600)
+        });
+//        右侧tab页
+
+           $(".right-2 .banner li").each(function(index){
+               $(this).mouseover(function(){
+                   $(".right-2 .xinwen>ul").removeClass("active4").eq(index).addClass("active4");
+                   $(".right-2 .banner li").removeClass("active5").eq(index).addClass("active5");
+
+               });
+
+           });
+
+
+//        尾部切换页
+      $(".left-one .left_1").click(function(){
+          $(".left-one .left_1").addClass("spotlight");
+          console.log($(".left-one .left_1"));
+          $(".left-two").animate({"left":"500px"},500);
+          $(".left-three").animate({"left":"600px"},500);
+
+      });
+
+     $(".left-two .left_2").click(function(){
+         $(".left-two .left_2").addClass("spotlight");
+         $(".left-two").animate({"left":"102px"},500);
+         console.log($(".left-two").css("left"));
+         if($(".left-two").css("left")==102+"px"){
+//             $(".left-two").animate({"left":"500px"},500);
+             $(".left-three").animate({"left":"600px"},500);
+         }
+
+     });
+        $(".left-three .left_3").click(function(){
+            $(".left-three .left_3").addClass("spotlight");
+            $(".left-three").animate({"left":"200px"},500);
+            $(".left-two").animate({"left":"102px"},500);
+            if($(".left-three").css("left")==600+"px"){
+                $(".left-three").animate({"left":"200px"},500);
+
+            }
+        });
+
+
+
+
+//头部轮播图
+        var timer;
+        var timer1;
+        var timer2;
+        var timer3;
+        var i= 1,j=0;//第一个轮播里面的变量 i控制图片的移动 j控制list的样式
+        var n= 1,m=0;
+        //计时器让图片和list 相对应的动起来
+        timer=setInterval(function(){
+            j++;
+            if(j==4){
+                j=0;
+            }
+            //先删除所有list样式 再给j 对应的加上
+            $(".btn_1 li").removeClass("active").eq(j).addClass("active");
+            if(i==5){
+                i=1;
+                //当轮播到最后一张是 因为最后一张跟第一张一样
+                // 到最后一张的时候瞬间切换到起点 做到无缝
+                $(".center-1 .scroll_1").css({"left":0})
+            }
+            //加上动画 达到滚动的效果
+            $(".center-1 .scroll_1").animate({"left":-"700"*i+"px"},1000);
+            i++;
+        },3000);
+        //each（fn（index）{}） 用index 绑定list和图片一起切换
+        $(".btn_1 li").each(function(index){
+            //this加上hover时间
+            $(this).hover(function(){
+                //停止循环
+                clearInterval(timer);
+                //阻止恶意点击
+                clearTimeout(timer1);
+                //加上setTimeout 停滞0.3s才起作用
+                //方便阻止恶意点击
+                timer1=setTimeout(function(){
+                    $(".center-1 .scroll_1").animate({"left":-"700"*index+"px"},1000);
+                    $(".btn_1 li").removeClass("active").eq(index).addClass("active");
+                },300);
+                //从新给i和j 赋值 作用是让鼠标移开后
+                //从现在所指到的开始继续轮播
+                i=(index+1);
+                j=index;
+            },function(){
+                //鼠标移开继续轮播
+                timer=setInterval(function(){
+                    j++;
+                    if(j==4){
+                        j=0;
+                    }
+                    $(".btn_1 li").removeClass("active").eq(j).addClass("active");
+                    if(i==5){
+                        i=1;
+                        $(".center-1 .scroll_1").css({"left":0})
+                    }
+                    $(".center-1 .scroll_1").animate({"left":-"700"*i+"px"},1000);
+                    i++;
+                },3000);
+            })
+        });
+
+        //第二页的轮播 效果同上 是把参数i，j  换成了n，m
+        timer2=setInterval(function(){
+            m++;
+            if(m==3){
+                m=0;
+            }
+            $(".btn_2 li").removeClass("active").eq(m).addClass("active");
+            if(n==4){
+                n=1;
+                $(".center-1 .scroll_2").css({"left":0})
+            }
+            $(".center-1 .scroll_2").animate({"left":-"700"*n+"px"},1000);
+            n++;
+        },3000);
+        $(".btn_2 li").each(function(index){
+            $(this).hover(function(){
+                clearInterval(timer2);
+                clearTimeout(timer3);
+                timer3=setTimeout(function(){
+                    $(".center-1 .scroll_2").animate({"left":-"700"*index+"px"},1000);
+                    $(".btn_2 li").removeClass("active").eq(index).addClass("active");
+                },300);
+
+                n=(index+1);
+                m=index;
+            },function(){
+                timer2=setInterval(function(){
+                    m++;
+                    if(m==3){
+                        m=0;
+                    }
+                    $(".btn_2 li").removeClass("active").eq(m).addClass("active");
+                    if(n==4){
+                        n=1;
+                        $(".center-1 .scroll_2").css({"left":0})
+                    }
+                    $(".center-1 .scroll_2").animate({"left":-"700"*n+"px"},1000);
+                    n++;
+                },3000);
+            })
+        });
+
+        $(".center_1 span").each(function(index){
+            $(this).click(function(){
+                $(".center_1 span").removeClass("active");
+                $(this).addClass("active");
+                $(".center-1>ul").css({"display":"none"});
+                if(index==0){
+                    $(".center-1>ul").eq(0).css({"display":"block"});
+                    $(".center-1>ul").eq(1).css({"display":"block"})
+                }else {
+                    $(".center-1>ul").eq(2).css({"display":"block"});
+                    $(".center-1>ul").eq(3).css({"display":"block"})
+                }
+            });
+        });
+/*左边*/
+            $(".icon16").hover(function(){
+                $(this). css({"backgroundPosition":"-340px -350px"});
+            },function(){
+                $(this). css({"backgroundPosition":"-170px -350px"});
+            });
+            $(".icon17").hover(function(){
+                $(this). css({"backgroundPosition":"-425px -350px"});
+            },function(){
+                $(this). css({"backgroundPosition":"-255px -350px"});
+            });
+            $(".icon18").hover(function(){
+                $(this). css({"backgroundPosition":"-340px -434px"});
+            },function(){
+                $(this). css({"backgroundPosition":"-170px -434px"});
+            });
+            $(".icon19").hover(function(){
+                $(this). css({"backgroundPosition":"-425px -434px"});
+            },function(){
+                $(this). css({"backgroundPosition":"-255px -434px"});
+            });
+
+            $(".le2_a1").hover(function(){
+                $(this). css({"backgroundPosition":"-1082px -1100px"});
+            },function(){
+                $(this). css({"backgroundPosition":"-912px -1100px"});
+            });
+
+            $(".left-sp").hover(function(){
+                $(this). css({"backgroundPosition":"0px -1238px"});
+            },function(){
+                $(this). css({"backgroundPosition":"-1252px -1100px"});
+            })
+
+
+    });
+</script>
+</body>
+</html>
